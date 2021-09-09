@@ -1,0 +1,45 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_banaszewski()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+
+<p>
+Teoria: <br>
+a)Uwagi na temat JS<br>
+-kiedy powstała -> W 1995 roku<br>
+-dlaczego jest to język skryptowy -> ponieważ nie musi być skompilowany do kodu maszynowego, i służy on do bycia obsługiwanym przez przeglądarki internetowe<br>
+-gdzie jest wykonywany JS (kliet lub serwer) -> jest wykonywany u klienta<br>
+-dlaczego jest to bezpieczne narzędzie -> Ze względów bezpieczeństwa JavaScript ma znacznie ograniczone uprawnienia dostępu do zasobów komputera, przy użyciu którego przeglądana jest dana strona, a wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu.<br>
+-czy jest to język obiektowy , jeśli tak to dlaczego. ->  jest to język obiektowy ponieważ pozwala to na tworzenie aplikacji i stron internetowych o wysokim stopniu zaawasowania<br>
+</p>
+
+<textarea  cols="60" rows="30">
+    
+
+b)Przepisz linie kody pod nimi wytłumaczenie:
+<input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')">
+--Tworzy to przycisk z napisem "Nowa strona", który po przyciśnięciu otwiera nowe okno--
+
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+
+toolbar=no ->  pokazuje lub ukrywa standardowy pasek narzędzi
+directories=no, -> pokazuje lub ukrywa przyciski katalogów
+menubar=no, ->pokazuje lub ukrywa menu przeglądarki
+height=280, -> Wysokość 280px
+width=160, -> Szerokość 160px
+top=200, -> położenie okna względem góry ekranu w pixelach
+left=200 -> położenie okna względem lewej części ekranu w pixelach
+window.close()
+--funkcja która zamyka okno--
+</textarea>
+
+<img src="obraz1.gif" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_banaszewski()"/>
+</body>
+</html>
