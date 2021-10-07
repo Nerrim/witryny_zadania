@@ -1,0 +1,19 @@
+<html>
+<body>
+<div style="color:green;font-size:42px;">
+<script language="JavaScript">
+var d1ban=prompt("Dzien pierwszy=","");
+var g1ban=prompt("Godzina dnia pierwszego=","");
+var d2ban=prompt("Dzien docelowy=","");
+var g2ban=prompt("Godzina dnia docelowego=","");
+var s;
+var dp=parseFloat(d1ban);
+var dd=parseFloat(d2ban);
+var gp=parseFloat(g1ban);
+var gd=parseFloat(g2ban);
+s=((dp-dd)*86400)+((gp-gd)*3600);
+document.write("Od dnia "+dd+" godz. "+gd+" do dnia "+dp+" godz. "+gp+" uplynelo "+s+" sekund<br>");
+</script>
+</div>
+</body>
+</html>
