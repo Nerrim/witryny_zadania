@@ -1,6 +1,6 @@
 <html>
 <body>
-<div style="color:red;font-size:50px;">
+<div style="color:Royalblue;font-size:50px;">
  <script language="JavaScript">
  var wej_x1=prompt("Podaj x1:","");
  var wej_x2=prompt("Podaj x2:","");
@@ -9,7 +9,16 @@
  var y1= 3 * Math.pow(x1, (6, (6+2)));
  var y2= (2 * Math.cos(x1 * Math.PI / 180)) + (2 * Math.sin(x1 * Math.PI / 180));
  var y3= Math.cbrt(Math.pow(x1,5) + (2 * Math.pow(x2,4)));
- var y4= 
+ var y4= Math.abs(x1 - x2);
+ var y5= y3 * y4; 
+ 
+ document.write("x1::" +x1+ "<br>");
+ document.write("x2::" +x2+ "<br>");
+ document.write("y1::" +y1+ "<br>"); 
+ document.write("y2::" +y2+ "<br>");
+ document.write("y3::" +y3+ "<br>"); 
+ document.write("y4::" +y4+ "<br>");
+ document.write("y5::" +y5+ "<br>");
  </script>
 </div>
 </body>
