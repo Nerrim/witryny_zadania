@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title> Użycie fukcji </title>
+<meta charset="utf-8">
+</head>
+<body>
+<div style="color:navy;font-size:50px;background-color:silver;">
+<script language="JavaScript">
+confirm("Prosze podac boki prostokata::");
+var a=parseFloat(prompt("a::",""));
+var b=parseFloat(prompt("b::",""));
+
+var x1=a;
+var x2=b;
+
+function pole_ban(a,b)
+{ return a*b; }
+  
+function obw_ban(a,b)
+{ return a+a+b+b; }
+
+  
+document.write("a::" +x1+ "<br>");
+document.write("b::" +x2+ "<br><br>");
+
+document.write("pole prostokata::"+pole_ban(a,b)+"<br>");
+document.write("obwod prostokata::"+obw_ban(a,b)+"<br>");
+
+</script>
+</div>
+</body>
+</html>
