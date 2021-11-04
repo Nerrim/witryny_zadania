@@ -1,0 +1,86 @@
+
+1.) getElementById(„id”) --> dostęp do wszystkich elementów o konkretnej 
+wartości atrybutu id
+ 
+2.) Okienko alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK,
+Okienko prompt – generująca okno, w którym użytkownik może wpisać wartość, zwracaną następnie
+do programu.
+Okienko confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm)
+
+3.)
+
+4.)Wypisywanie tekstu na stronie; Wypisywanie wartości zmiennych na stronie;
+
+5.)Definiujemy funckje tylko w <head>!
+
+definiowanie:
+function pomoc()
+{
+document.write("<a href=\"pomoc.html\"><img src=\"help.gif\" width=\"15\" height=\"10\"
+alt=\"help\" /></a>");
+}
+
+wywołanie:
+document.write("Jeżeli nie wiesz, co zrobić dalej, zobacz pomoc: ");
+pomoc() 
+
+6.)Wstawki do kodu HTML mogą być umieszczone w <head> albo w <body>
+
+7.)
+isFinite(zmienna) - zwraca true jeżeli zmienna ma wartość nieskończoność
+isNaN(zmienna) - zwraca true jeżeli zmienna nie jest liczbą ("Not a Number")
+Number(zmienna) - sprawdza czy zmienna jest typu liczbowego (zwraca NaN jeżeli nie, zwraca
+wartość jeżeli tak)
+parseFloat(zmienna) - konwersja zmiennej do typu float
+parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego)
+toString(zmienna) - konwersja zmiennej do typu łańcuchowego
+
+
+8.)
+a. Math.pow (zmienna, 2)
+b. Math.pow (zmienna1, zmienna2)
+c. 
+d. zmienna_stopnie * (Math.PI / 180) 
+e. Math.abs(zmienna)
+f. Math.sin() , Math.cos() , Math.tan() 
+
+9.) obiekt: przycisk, o nazwie 'kuku' , wartości 'winetu' , który po kliknięciu 
+wykonuje funckje "Mata_rap('')"
+
+10.)  innerHTML – umożliwia określenie kodu HTML który zostanie umieszczony w elemencie np. w
+tabeli
+
+11.) window.open()-> to metoda, która pozwala na otworzenie nowego okna.
+Jej parametrami są:
+URL – adres strony, która ma zostać załadowana w nowym oknie,
+name – określa sposób otwarcia nowego okna,
+specs – lista wartości rozdzielonych przecinkami, które dotyczą takich właściwości okna jak
+możliwość zmiany rozmiaru, wysokość, szerokość, …,
+replace – parametr, który mówi czy nowe okno ma dodać nowy wpis do historii przeglądarki czy
+zastąpić aktualny.
+
+12.) I. przez prompt(), II. przez formularz, III. 
+
+13.)Funkcja jest oddzielnym blokiem kodu, który może być wielokrotnie wykonywany w danym
+programie przez jego wywoływanie. W większości wypadków do funkcji przekazujemy odpowiednie
+argumenty, aby otrzymać wartość wyjściową wynikającą z zaprogramowanych w funkcji działań. 
+
+14.)Kod js wykonuje się na przeglądarce internetowej po stronie klienta 
+
+15.) JavaScript jest przede wszystkim językiem skryptowym – to znaczy interpretowanym. Nie musi
+zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania. 
+
+16.)Ze względów bezpieczeństwa JavaScript ma znacznie ograniczone
+uprawnienia dostępu do zasobów komputera, przy użyciu którego przeglądana jest dana strona, a
+wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu.
+
+17.)W języku JavaScript indentyfikator musi rozpoczynać się od litery, podkreślnika(_) lub
+ symbolu dolara ($). Pozostałe znaki w indetyfikatorze mogą być także cyframi(0-9). 
+Ponieważ JavaScript rozróżnia wielkość liter, znaki jakich możemy użyć jako nazw identyfikatora
+ mogą być zarówno wielkimi (A-Z; uppercase) jak i małymi (a-z; lowercase) literami alfabetu.
+
+18.) ---- 
+
+19.) ----
+
+20.) 4 grudnia 1995
