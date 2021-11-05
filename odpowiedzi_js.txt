@@ -59,7 +59,7 @@ możliwość zmiany rozmiaru, wysokość, szerokość, …,
 replace – parametr, który mówi czy nowe okno ma dodać nowy wpis do historii przeglądarki czy
 zastąpić aktualny.
 
-12.) I. przez prompt(), II. przez formularz, III. 
+12.) I. przez prompt(), II. przez formularz, III. Do formularza , IV. Do tabeli
 
 13.)Funkcja jest oddzielnym blokiem kodu, który może być wielokrotnie wykonywany w danym
 programie przez jego wywoływanie. W większości wypadków do funkcji przekazujemy odpowiednie
