@@ -4,15 +4,15 @@
 </head>
 <script>
 function sum(){
-liczba = document.getElementById("liczba").value;
-netto = parseInt(liczba);
+liczba = document.getElementById("netto").value;
+cena = parseFloat(liczba);
 
-brutto = netto*(23 / 100);
-alert(brutto);
+brutto = netto*1.23;
+alert("cena netto wynosi:" +cena+ ", a cena brutto wynosi:" +brutto+ );
 }
 </script>
 <body>
-<input type="text" id="liczba" value="Proszę podać cenę netto:">
-<input type="button" onclick="sum();" value="oblicz cenę brutto"> 
+<input type="text" id="netto">
+<input type="button" onclick="sum();" value="oblicz cenę netto i brutto"> 
 </body>
 </html>
