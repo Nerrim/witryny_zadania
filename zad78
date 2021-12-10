@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Zadanie 78</title>
+<script language="JavaScript">
+	var dr=parseFloat(prompt("R::",""));
+	var ur=-dr;
+	var licznik_ban=0;
+	
+	for (var i=ur; i<=dr; i++)
+	{
+		document.write("   ")
+		for(var j=ur; j<=dr; j++)
+		{
+			document.write("("+i+" , "+j+")");
+			d=Math.sqrt(i*i+j*j);
+			if(d<=dr)
+			{
+				document.write("'  ")
+			licznik_ban++;
+			}
+			document.write("   ")
+		}
+		document.write("<br>");
+	}
+	document.write("N="+licznik_ban+"<br>");
+</script>
+</head>
+
+<body>
+</body>
+</html>
