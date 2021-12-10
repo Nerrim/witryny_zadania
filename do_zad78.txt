@@ -1,0 +1,4 @@
+W szkielecie pojawią się trzy przyciski: 
+-przycisk do działania programu;
+-przycisk do kodu programu;
+-przycisk do tabeli wykonanej w HTML wypełnionej tak jak jest podane w treści zadania 78;
