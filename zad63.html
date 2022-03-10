@@ -1,0 +1,32 @@
+<html>
+ <body>
+
+    <script language="JavaScript">
+    function okno_zamknij_banaszewski2()
+    {
+    window.close()
+    }
+    </script>
+
+
+ <div style="color:red;font-size:50px;">
+    <script language="JavaScript">
+    function wyb()
+    {
+    var x=prompt("WYBIERZ KOLOR: ","");
+    if ((x==1) || ( x=="czerwony")|| ( x=="CZERWONY") || ( x=="Czerwony"))
+    {document.write("<font color=red size=12> WYBRALES CZERWIEN </font>"+"<br>");}
+
+    else if ((x==2) || (x=="niebieski") ||(x=="NIEBIESKI") || (x=="Niebieski"))
+   {document.write("<font color=blue size=1> WYBRALES NIEBIESKIi</font>"+"<br>");}
+
+    }
+    </script>
+ </div>
+ </body>
+    <h2><font color=green >MENU</font></h2><br>
+    <font color=red>1.CZERWONY</font> <br>
+    <font color=blue>2.NIEBISKI</font> <br>
+    <input type="button" name="przycisk" value="WYBIERZ KOLOR" onclick="wyb()"><br>
+    <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+</html>

@@ -1,31 +1,24 @@
 <html>
-<head>
-<title>Zadanie 78</title>
-<script language="JavaScript">
-	var dr=parseFloat(prompt("R::",""));
-	var ur=-dr;
-	var licznik_ban=0;
-	
-	for (var i=ur; i<=dr; i++)
-	{
-		document.write("   ")
-		for(var j=ur; j<=dr; j++)
-		{
-			document.write("("+i+" , "+j+")");
-			d=Math.sqrt(i*i+j*j);
-			if(d<=dr)
-			{
-				document.write("'  ")
-			licznik_ban++;
-			}
-			document.write("   ")
-		}
-		document.write("<br>");
-	}
-	document.write("N="+licznik_ban+"<br>");
-</script>
-</head>
-
-<body>
-</body>
+ <body>
+  <script type="text/javascript">
+    function okno_zamknij_banaszewski2() { window.close() }
+  </script>
+  <script language="JavaScript">
+    var licz1=prompt("PODAJ R:"," ");
+    var R=parseFloat(licz1);
+    var lban=0;
+    for(var i=-Math.round(R)-1; i<=Math.round(R)+1; i++){
+    for(var j=-Math.round(R)-1; j<=Math.round(R)+1; j++){
+    var m=Math.sqrt(i*i+j*j);
+    if(m<=R){
+    lban++;
+    }
+    document.write("("+i+","+j+")"+"  ");
+    }
+    document.write("<br>");
+    }
+    document.write("N="+lban+"  ");
+  </script>
+    <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+ </body>
 </html>
