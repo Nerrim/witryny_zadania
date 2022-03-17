@@ -1,0 +1,365 @@
+<html> 
+ <head>
+ <title>Kody zadań 62-78 z Java Script</title>
+ </head>
+
+ <body>
+     <textarea cols="50" rows="2000">
+         ZAD 78:
+         {
+            <html>
+                <body>
+                 <script type="text/javascript">
+                   function okno_zamknij_banaszewski2() { window.close() }
+                 </script>
+                 <script language="JavaScript">
+                   var licz1=prompt("PODAJ R:"," ");
+                   var R=parseFloat(licz1);
+                   var lban=0;
+                   for(var i=-Math.round(R)-1; i<=Math.round(R)+1; i++){
+                   for(var j=-Math.round(R)-1; j<=Math.round(R)+1; j++){
+                   var m=Math.sqrt(i*i+j*j);
+                   if(m<=R){
+                   lban++;
+                   }
+                   document.write("("+i+","+j+")"+"  ");
+                   }
+                   document.write("<br>");
+                   }
+                   document.write("N="+lban+"  ");
+                 </script>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>
+         }
+
+         ZAD 77:
+         {
+            <html>
+                <head>
+                 <script type="text/javascript">
+                   function okno_zamknij_banaszewski2() { window.close() }
+                 </script>
+                 <script language="JavaScript">
+                   for ( var i=1; i<=10; i++)
+                   {
+                   for ( var j=1; j<=i; j++) { document.write("&nbsp"); }
+                   document.write(i+"<br>");
+                   }
+                 </script>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </head>
+                 <body>
+                 </body>
+            </html>
+         }
+
+         ZAD 76:
+         {
+            <html>
+                <body>
+                 <script type="text/javascript">
+                   function okno_zamknij_banaszewski2() { window.close() }
+                 </script>
+                 <script language="JavaScript">
+                   var a=prompt("PODAJ LICZBE a:","");
+                   var b=prompt("PODAJ LICZBE b:","");
+                   x=parseInt(a);
+                   y=parseInt(b);
+                   x2=x;
+                   y2=y;
+                   if(x<y)
+                   {
+                   for(x=x1;x<=y;x++)
+                   {
+                   if (x%2!=0) 
+                   document.write("<font size=6 color=green>"+x+"<br>");
+                   }
+                   }
+                   if (x>y)
+                   {
+                   for(x=x1;x>=y;x--)
+                   {
+                   if (x%2!=0) 
+                   document.write("<font size=3 color=blue>"+x+"<br>");
+                   }
+                   }
+                   if (x==y)
+                   {   
+                   confirm("BRAK WYKONYWANYCH OBLICZEN");
+                   }
+                 </script>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>  
+         }
+
+         ZAD 74:
+        {
+            <html>
+                <head>
+                <title>
+                Zadanie 74
+                </title>
+                <script language="JavaScript">
+                for ( var i=2; i<=17; i++)
+                {
+                if(i%3==0){ var r=confirm("Naciśnij klawisz");}
+                w=i*i+i+41;
+                pierw_2=Math.sqrt(i);
+                pierw_4=Math.pow(i, 1/4);
+                wyn1=pierw_2.toFixed(3);
+                wyn2=pierw_4.toFixed(3);
+                
+                document.write
+                ("i="+i+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"w("+i+")="+w+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"pierw_2="+wyn1+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"pierw_4="+wyn2+"<br>");
+                }
+                </script>
+                </head>
+                <body>
+                </body>
+            </html> 
+        }
+
+        ZAD 73:
+        {
+            <html>
+                <head>
+                <title>
+                Przykład petli
+                </title>
+                <script language="JavaScript">
+                for ( var i=0; i<=39; i++)
+                {
+                if(i%5==0){ var r=confirm("Naciśnij klawisz");}
+                w=i*i+i+41;
+                document.write
+                ("i="+i+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"w("+i+")="+w+"<br>");
+                }
+                </script>
+                </head>
+                <body>
+                </body>
+                </html>
+        }
+
+        ZAD 70:
+        {
+            <html>
+                <body>
+                 <script type="text/javascript">
+                   function okno_zamknij_banaszewski2(){ window.close() }
+                 </script>
+                <div style="color:red;font-size:42px;">
+                 <script language="JavaScript">
+                   var a=prompt("PODAJ LICZBE A:","");
+                   var b=prompt("PODAJ LICZBE B:","");
+                   for(i=1;i<=b;i++) { document.write("*"+""); }
+                   document.write("<br>");
+                   for(i=1;i<=a-2;i++)
+                   {
+                   document.write("*");
+                   for(j=1;j<=b-2;j++)
+                   document.write("&nbsp;&nbsp;"+"");
+                   document.write("*"+"<br>");
+                   }
+                   for(i=1;i<=b;i++) { document.write("*"); }
+                 </script>
+                </div>
+                   <input type="button" value="zamknij okno" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>
+        }
+
+        ZAD 69:
+        {
+            <html>
+                <body>
+                 <script type="text/javascript">
+                   function okno_zamknij_banaszewski2() { window.close() }
+                 </script>
+                <div style="color:red;font-size:42px;">
+                 <script language="JavaScript">
+                   for(i=1;i<=21;i++)
+                   {
+                   document.write("*"+"");
+                   }
+                   document.write("<br>");
+                   for(i=1;i<=7;i++)
+                   {
+                   document.write("*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;*<br>");
+                   }
+                   for(i=1;i<=21;i++)
+                   {
+                   document.write("*"+"");
+                   }
+               
+                 </script>
+                </div>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html> 
+        }
+
+        ZAD 68:
+        {
+            <html>
+                <body>
+                 <script type="text/javascript">
+                   function okno_zamknij_banaszewski2() { window.close() }
+                 </script>
+                <div style="color:blue;font-size:50px;">
+                 <script language="JavaScript">
+                   var x=prompt("PODAJ LICZBE:","");
+                   for(i=1;i<=10;i++)
+                   {
+                   if (x%2==0) {document.write("<font size=43px color=blue>BANASZEWSKI"+"<br>");}
+                   else {document.write("<font size=43px color=green>MILOSZ"+"<br>");}
+                   }
+                 </script>
+                </div>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>
+        }
+
+        ZAD 67:
+        {
+            <html>
+                <body>
+                 <script language="JavaScript">
+                   function okno_zamknij_banaszewski2() { window.close() }
+                 </script>
+                <div style="color:blue;font-size:43px;">
+                 <script language="JavaScript">
+                   for(i=1;i<=12;i++)
+                   {
+                   if (i%2==0) {document.write("Miłosz"+"<br>");}
+                   else {document.write("Banaszewski"+"<br>");}
+                   }
+                 </script>
+                </div> 
+                   <input type="button" value="zamknij okno" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>
+        }
+
+        ZAD 66:
+        {
+            <html>
+                <body>
+                 <script language="JavaScript">
+                   function okno_zamknij_banaszewski2(){ window.close() }
+                 </script>
+                <div style="color:red;font-size:50px;">
+                 <script language="JavaScript">
+                   for(i=1;i<=10;i++) { document.write("WYPISUJE "+i+" RAZ"+" BANASZEWSKI"+"<br>"); }
+                 </script>
+                </div>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>
+        }
+
+        ZAD 65:
+        {
+            <html>
+                <body>
+                 <script language="JavaScript">
+                   function okno_zamknij_banaszewski2() { window.close() }
+                 </script>
+                <div style="color:red;font-size:50px;">
+                 <script language="JavaScript">  
+                   var rok=prompt("Od ktorego roku javascript jest w uzyciu? <br> WPISZ POPRAWNA ODPOWIDZ: ","");
+                   document.write("WCZYTANY ROK:"+rok+"<br>");
+                   if (rok==1995)
+                   {document.write("<font size=4 color=blue>GRATULACJE! MASZ RACJE"+"<br>");}
+                   else
+                   {document.write("<font size=7 color=red>NIESTETY NIE MASZ POJECIA O JS, POLECAM BUDOWLANKE W GDANSKU."+"<br>");}
+                 </script> 
+                </div>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>
+        }
+
+        ZAD 64:
+        {
+            <html> 
+                <body>
+                 <script language="JavaScript">
+                   function okno_zamknij_banaszewski2() {window.close()}
+               </script>
+                <div style="color:red;font-size:50px;">
+                 <script language="JavaScript">
+                   var x=prompt("PODAJ LICZBE: ","");
+                   if (x%2==0) {document.write("<font size=3 color=red>TA LICZBA <b>JEST</b> PARZYSTA"+"<br>");}
+                   else {document.write("<font size=5 color=silver>TA LICZBA JEST <b>NIE</b> PARZYSTA"+"<br>");}
+                 </script>
+                </div> 
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+               </html>
+        }
+
+        ZAD 63:
+        {
+            <html>
+                <body>
+               
+                   <script language="JavaScript">
+                   function okno_zamknij_banaszewski2()
+                   {
+                   window.close()
+                   }
+                   </script>
+               
+               
+                <div style="color:red;font-size:50px;">
+                   <script language="JavaScript">
+                   function wyb()
+                   {
+                   var x=prompt("WYBIERZ KOLOR: ","");
+                   if ((x==1) || ( x=="czerwony")|| ( x=="CZERWONY") || ( x=="Czerwony"))
+                   {document.write("<font color=red size=12> WYBRALES CZERWIEN </font>"+"<br>");}
+               
+                   else if ((x==2) || (x=="niebieski") ||(x=="NIEBIESKI") || (x=="Niebieski"))
+                  {document.write("<font color=blue size=1> WYBRALES NIEBIESKIi</font>"+"<br>");}
+               
+                   }
+                   </script>
+                </div>
+                </body>
+                   <h2><font color=green >MENU</font></h2><br>
+                   <font color=red>1.CZERWONY</font> <br>
+                   <font color=blue>2.NIEBISKI</font> <br>
+                   <input type="button" name="przycisk" value="WYBIERZ KOLOR" onclick="wyb()"><br>
+                   <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+               </html>
+        }
+
+        ZAD 62:
+        {
+            <html>
+                <body>
+                 <script language="JavaScript">
+                  function okno_zamknij_banaszewski2() { window.close() }
+                </script>
+                 <div style="color:rgb(230, 33, 33);font-size:50px;">
+                   <script language="JavaScript">
+                  var x=prompt("podaj liczbę x=","");
+                  var a=parseFloat(x);
+                  document.write("czytana liczba x="+a+"<br>");
+                  if(a>0) {document.write("TA LICZBA JEST WIEKSZA OD 0"+"<br>");}
+                  if(a==0) {document.write("TA LICZBA JEST ROWNA 0"+"<br>");}
+                  if(a<0) {document.write("TA LICZBA JEST MNIEJSZA 0"+"<br>");}
+                    </script>
+                </div>
+                <input type="button" value="WYJDZ" onclick="okno_zamknij_banaszewski2()"/>
+                </body>
+            </html>
+        }
+
+     </textarea>
+ </body>
+</html>
